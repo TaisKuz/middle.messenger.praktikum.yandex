@@ -1,0 +1,20 @@
+<nav class="left-menu">
+  <div class="left-menu__top-wrapper">
+    <a class="left-menu__profile" href="./">
+      <h2>Профиль</h2>
+      <img
+        class="left-menu__icon arrow-icon"
+        src="../../../static/icons/icon-arrow.svg"
+        width="4"
+        height="8"
+        alt="arrow-icon"
+      >
+    </a>
+    <div class="left-menu__search-line-wrapper">
+      {{> chat/searchLine}}
+    </div>
+    <div class="left-menu__chats-list-wrapper">
+      {{> chat/chatsList}}
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,21 @@
+<div class="edit-profile">
+  {{> components/goBackMenu}}
+  <form class="edit-profile__form">
+    {{#with data.user}}
+      <a class="edit-profile__avatar-wrapper" href="./">
+        <input type="button" name="avatar">
+        <img src={{image}} alt="user avatar" width="130" height="130">
+      </a>
+      <h2 class="edit-profile__title">Регистрация</h2>
+      <div class="edit-profile__user-data">
+        {{> profile/userData editable=true}}
+        <div class="edit-profile__button-wrapper">
+          {{> components/button
+            type="submit"
+            text="Сохранить"
+          }}
+        </div>
+      </div>
+    {{/with}}
+  </form>
+</div>

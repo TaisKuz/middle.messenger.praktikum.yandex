@@ -1,0 +1,67 @@
+<form class="signin-form">
+  <h1 class="signin-form__title">Регистрация</h1>
+  {{> components/formField
+    className="signin-form__form-field signin-form__form-field_email form-field"
+    type="email"
+    name="email"
+    text="Почта"
+    placeholder="pochta@yandex.ru"
+    error=false
+    errorMessage="Неверный email"
+  }}
+  {{> components/formField
+    className="signin-form__form-field signin-form__form-field_login form-field"
+    type="text"
+    name="login"
+    text="Логин"
+    placeholder="ivanivanov"
+    error=false
+    errorMessage="Неверный логин"
+  }}
+  {{> components/formField
+    className="signin-form__form-field signin-form__form-field_first-name form-field"
+    type="text"
+    name="first_name"
+    text="Имя"
+    placeholder="Иван"
+  }}
+  {{> components/formField
+    className="signin-form__form-field signin-form__form-field_second-name form-field"
+    type="text"
+    name="second_name"
+    text="Фамилия"
+    placeholder="Иванов"
+  }}
+  {{> components/formField
+    className="signin-form__form-field signin-form__form-field_phone form-field"
+    type="text"
+    name="phone"
+    text="Телефон"
+    placeholder="+7 (909) 967 30 30"
+  }}
+
+  {{> components/formField
+    className="signin-form__form-field signin-form__form-field_password"
+    type="password"
+    name="password"
+    text="Пароль"
+    error=false
+  }}
+  {{> components/formField
+    className="signin-form__form-field signin-form__form-field_password signin-form__form-field_password-copy"
+    type="password"
+    name="password_copy"
+    text="Пароль (ещё раз)"
+    error=false
+    errorMessage="Пароли не совпадают"
+  }}
+  {{> components/button
+    className="signin-form__button form-button"
+    type="submit"
+    text="Зарегистрироваться"
+    value="signin"
+  }}
+  <div class="signin-form__login-wrapper">
+    {{components/button text="Войти"}}
+  </div>
+</form>

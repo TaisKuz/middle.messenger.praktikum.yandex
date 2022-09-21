@@ -1,0 +1,26 @@
+  <form class="login-form">
+    <h1 class="login-form__title">Вход</h1>
+    {{> components/formField
+      className="login-form__form-field login-form__form-field_user-name"
+      type="text"
+      name="login"
+      text="Логин"
+      placeholder="ivanivanov"
+      error=false
+      errorMessage="Неверный логин"
+    }}
+    {{> components/formField
+      className="signin-form__form-field signin-form__form-field_password"
+      type="password"
+      name="password"
+      text="Пароль"
+      error=false
+    }}
+    {{> components/button
+      className="login-form__button form-button"
+      type="submit"
+      text="Авторизоваться"
+      value="login"
+    }}
+    <a class="login-form__no-account" href="./">Нет аккаунта?</a>
+  </form>

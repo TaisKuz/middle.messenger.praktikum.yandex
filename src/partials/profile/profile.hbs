@@ -1,0 +1,18 @@
+<div class="profile">
+  {{> components/goBackMenu}}
+  {{#with data.user}}
+    <div class="profile__avatar-wrapper">
+      <input type="button" name="avatar">
+      <img src={{image}} alt="user avatar" width="130" height="130">
+    </div>
+    <div class="profile__name">{{name}}</div>
+    <div class="profile__user-data-wrapper">
+      {{> profile/userData}}
+    </div>
+  {{/with}}
+  <a class="profile__link profile__link_edit-profile" href="./">Изменить данные</a>
+  <a class="profile__link profile__link_edit-password" href="./">Изменить пароль</a>
+  <div class="profile__logout-wrapper">
+    {{> components/buttonLogout}}
+  </div>
+</div>

@@ -1,0 +1,15 @@
+<div class="profile-row">
+  {{#if editable}}
+    <label class="profile-row__label" for={{name}}>{{text}}</label>
+    <input
+      class={{`profile-row__input ${className}`}}
+      type={{type}}
+      name={{name}}
+      placeholder={{placeholder}}
+      id={{`profile-row-input-${name}`}}
+    >
+  {{else}}
+    <h3>{{text}}</h3>
+    <div>{{placeholder}}</div>
+  {{/if}}
+</div>

@@ -1,0 +1,60 @@
+<form class="user-data">
+  {{#with data.user}}
+    <div class="user-data__avatar-wrapper">
+      <input type="button" name="avatar">
+      <img src={{image}} alt="user avatar" width="130" height="130">
+    </div>
+    <h2 class="user-data__title">Регистрация</h2>
+    <div class="user-data__content-wrapper">
+      {{> components/profileRow
+        name="email"
+        text="Почта"
+        value=email
+        editable=true
+      }}
+      {{> components/profileRow
+        name="login"
+        text="Логин"
+        value=login
+        editable=true
+      }}
+      {{> components/profileRow
+        name="first_name"
+        text="Имя"
+        value=first_name
+        editable=true
+      }}
+      {{> components/profileRow
+        name="second_name"
+        text="Фамилия"
+        value=second_name
+        editable=true
+      }}
+      {{> components/profileRow
+        name="nickname"
+        text="Имя в чате"
+        value=nickname
+        editable=true
+      }}
+      {{> components/profileRow
+        name="phone"
+        text="Телефон"
+        value=phone
+        editable=true
+      }}
+      <div class="user-data__button-wrapper">
+        {{> components/button
+          className="user-data__button form-button"
+          type="submit"
+          text="Зарегистрироваться"
+          value="signin"
+        }}
+      </div>
+    </div>
+  {{/with}}
+  <a class="user-data__link user-data__link_edit-profile" href="./">Изменить данные</a>
+  <a class="user-data__link user-data__link_edit-password" href="./">Изменить пароль</a>
+  <div class="user-data__logout-wrapper">
+    {{> components/buttonLogout}}
+  </div>
+</form>
