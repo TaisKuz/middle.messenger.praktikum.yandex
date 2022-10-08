@@ -1,3 +1,10 @@
+### Deploy Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ac8d08ad-9aa7-4380-a879-bb6bb4941e85/deploy-status)](https://app.netlify.com/sites/incredible-quokka-497904/deploys)
+
+проект можно посмотреть на https://incredible-quokka-497904.netlify.app/
+
+
 ### Ветка, в которой выполнено задание 1-го спринта называется sprint_1
 
 ---
