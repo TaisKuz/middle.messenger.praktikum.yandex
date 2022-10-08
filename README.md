@@ -20,8 +20,8 @@
 
 ## Установка (dev)
 - `npm install` — установка npm пакетов для разработки проекта.
-- `npm run start` — запуск клиента проекта на localhost:1234.
-- `npm run server` — запуск сервера проекта на 3000 порту.
+- `npm run start-parcel` — запуск клиента проекта на localhost:1234.
+- `npm run start` или `npm run server` — запуск сервера проекта на 3000 порту.
 - `npm run start-nodemon` — запуск сервера проекта с nodemon на 3000 порту.
 - `npm run build` — сборка стабильной версии проекта.
 

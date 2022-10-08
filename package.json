@@ -5,7 +5,8 @@
   "license": "ISC",
   "scripts": {
     "start-nodemon": "nodemon src/scripts/server.js",
-    "start": "parcel src/pages/chat/index.hbs --no-cache",
+    "start": "node src/scripts/server.js",
+    "start-parcel": "parcel src/pages/chat/index.hbs --no-cache",
     "build": "parcel build src/pages/chat/index.hbs --no-cache --public-url ./",
     "server": "node src/scripts/server.js"
   },
