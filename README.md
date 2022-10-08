@@ -1,3 +1,9 @@
+
+![pull request Sprint 1](https://github.com/TaisKuz/middle.messenger.praktikum.yandex/pull/2)
+
+### Ветка, в которой делаете задания спринта, должна называться sprint_i, где i - номер спринта. Не переименовывайте её.
+
+
 ### Deploy Status
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ac8d08ad-9aa7-4380-a879-bb6bb4941e85/deploy-status)](https://app.netlify.com/sites/incredible-quokka-497904/deploys)
@@ -5,9 +11,8 @@
 проект можно посмотреть на https://incredible-quokka-497904.netlify.app/
 
 
-### Ветка, в которой выполнено задание 1-го спринта называется sprint_1
 
----
+### Ветка, в которой выполнено задание 1-го спринта называется sprint_1
 
 ### - Готов ли проект к использованию?
 В данной версии 1.0 проект состоит из основных экранов, в виде html разметки с классами, которые затем будут использованы для добавления css стилей. Сейчас css в проекте практически отсутствует (обсуждали это с куратором 19-й когорты).
