@@ -1,3 +1,12 @@
+![pull request Sprint 1](https://github.com/TaisKuz/middle.messenger.praktikum.yandex/pull/2)
+
+### Deploy Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ac8d08ad-9aa7-4380-a879-bb6bb4941e85/deploy-status)](https://app.netlify.com/sites/incredible-quokka-497904/deploys)
+
+проект можно посмотреть на https://incredible-quokka-497904.netlify.app/
+
+
 ### Ветка, в которой делаете задания спринта, должна называться sprint_i, где i - номер спринта. Не переименовывайте её.
 
 ### Откройте pull request в ветку main из ветки, где вы разрабатывали проект, и добавьте ссылку на этот pr в README.md в ветке main. 
