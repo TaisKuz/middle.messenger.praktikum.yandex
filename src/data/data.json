@@ -3,21 +3,21 @@
     {
       "img": "../../../static/assets/00-user-avatar.jpeg",
       "name": "Андрей",
-      "date": "10:49",
+      "date": "2022-10-09 14:54:39.929",
       "message": "Изображение",
       "badge": 2
     },
     {
       "img": "../../../static/assets/01-user-avatar.jpeg",
       "name": "Design Destroyer",
-      "date": "Пт",
+      "date": "2022-09-09 11:30:30.929",
       "message": "Вы: Круто!",
       "badge": 0
     },
     {
       "img": "../../../static/assets/02-user-avatar.jpeg",
       "name": "1, 2, 3",
-      "date": "1 Мая 2020",
+      "date": "2020-09-09 10:40:20.929",
       "message": "Так увлёкся работой по курсу, что совсем забыл его анонсировать новости",
       "badge": 4
     }
