@@ -1,0 +1,13 @@
+<li class="chat-item">
+  {{#with chat}}
+    <div class="chat-item__img-wrapper">
+      <img src={{img}} alt="user avatar" width="47" height="47">
+    </div>
+    <div class="chat-item__text">
+      <div class="chat-item__name">{{name}}</div>
+      <time class="chat-item__date" datetime={{date}}>{{date}}</time>
+      <div class="chat-item__message">{{message}}</div>
+      <div class="chat-item__badge">{{badge}}</div>
+    </div>
+  {{/with}}
+</li>

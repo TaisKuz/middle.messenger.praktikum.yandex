@@ -1,0 +1,43 @@
+{
+  "name": "messenger-app",
+  "version": "1.0.0",
+  "author": "TaisKuz <taiskuz@mail.ru>",
+  "license": "ISC",
+  "scripts": {
+    "start-nodemon": "nodemon src/scripts/server.js",
+    "start": "node src/scripts/server.js",
+    "start-parcel": "parcel src/pages/chat/index.hbs --no-cache",
+    "build": "parcel build src/pages/chat/index.hbs --no-cache --public-url ./"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@anikin/parcel-transformer-handlebars": "1.0.2",
+    "@parcel/transformer-sass": "2.7.0",
+    "assert": "2.0.0",
+    "browserify-zlib": "0.2.0",
+    "buffer": "6.0.3",
+    "crypto-browserify": "3.12.0",
+    "events": "3.3.0",
+    "express": "4.18.1",
+    "nodemon": "2.0.19",
+    "parcel": "2.0.1",
+    "path-browserify": "1.0.1",
+    "process": "0.11.10",
+    "querystring-es3": "0.2.1",
+    "sass": "1.54.5",
+    "stream-browserify": "3.0.0",
+    "stream-http": "3.2.0",
+    "url": "0.11.0",
+    "util": "0.12.4"
+  },
+  "dependencies": {
+    "express": "4.18.1",
+    "handlebars": "4.7.7",
+    "handlebars-layouts": "3.1.4"
+  },
+  "engines": {
+    "node": "18.10.0"
+  },
+  "repository": "https://github.com/TaisKuz/middle.messenger.praktikum.yandex.git",
+  "private": false
+}
