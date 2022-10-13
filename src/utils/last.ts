@@ -1,4 +1,4 @@
-function last(list) {
+function last<T>(list: Array<T>) {
   if (!Array.isArray(list)) return undefined;
 
   const length = list.length;

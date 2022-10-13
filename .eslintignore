@@ -1,0 +1,12 @@
+/build
+**/*.min.js
+/node_modules
+*.log
+**/logs
+/.github
+/.github/workflows/tests.yml
+**/node_modules
+**/packages
+**/dist
+/.parcel-cache
+package-lock.json
